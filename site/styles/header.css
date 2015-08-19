@@ -1,0 +1,68 @@
+/**
+ * Header Style Sheet
+ *
+ * Copyright (c) 2011. by Way2CU
+ * Author: Max Sokorianski & Eyal Gershon
+ */
+
+
+header div.inner_wrap {
+	text-align: center;
+	border-bottom: 3px solid transparent;
+	padding-bottom: 20px;
+	border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
+	-moz-border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
+	-webkit-border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header div.inner_wrap img#logo {
+	display: inline-block;
+	width: 230px;
+	padding-left: 30px;
+	margin-top: 20px;
+	border-left: 1px solid #133368;
+}
+
+header div.inner_wrap nav {
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+header div.inner_wrap nav a {
+	display: inline-block;
+	font-size: 1.6em;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #133368;
+	transition: 0.3s all;
+}
+
+header div.inner_wrap nav a:hover {
+	background-color: #133368;
+	color: white;
+}
+
+header div.inner_wrap a.phone {
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/phone-icon.svg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 50px;
+	margin-top: 30px;
+	color: #6A6A6A;
+	font-weight:bold;
+	font-size: 2.0em;
+}
+
+body div.background {
+	background-image: url(../images/background.svg);
+
+}

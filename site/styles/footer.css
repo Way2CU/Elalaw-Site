@@ -1,0 +1,96 @@
+/**
+ * Footer Style Sheet
+ *
+ * Copyright (c) 2011. by Way2CU
+ * Author: Max Sokorianski & Eyal Gershon
+ */
+
+footer {
+	display: block;
+	vertical-align: top;
+	background-color: #133368;
+	border-top: solid 10px #6A6A6A;	
+}
+
+footer div.inner_wrap.footer {
+	background-color: rgba(255, 255, 255, 0);
+	text-align: center;
+	vertical-align: top;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 1.4em;
+}
+
+footer div.inner_wrap div.footer_info {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+
+footer div.inner_wrap div.footer_info a {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: white;
+	text-decoration: none;
+}
+
+
+footer div.inner_wrap div.footer_info a.phone {
+	display: block;
+	vertical-align: top;
+	background-image: url(../images/phone-icon.svg);
+	margin-left: 20px;
+	padding-right: 35px;
+
+}
+
+footer  a.title_footer {
+	display: block;
+	vertical-align: top;
+	margin-left: 20px;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 1.1em; 
+
+}
+
+footer a.location {
+	display: block;
+	vertical-align: top;
+	background-image: url(../images/location-icon.svg);
+	background-position: 98% center !important;
+	padding-right: 35px;
+
+}
+
+footer div.inner_wrap.footer nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 7px;
+	padding-left: 125px;
+	padding-right: 125px
+
+}
+
+footer div.inner_wrap.footer nav a {
+	display: inline-block;
+	
+	padding: 10px;
+	color: white;
+	transition: 0.3s all;
+	text-decoration: none;
+}
+
+footer div.inner_wrap.footer nav a:hover {
+	background-color: white;
+	color: #133368;
+}
+
+footer div.inner_wrap.footer img#logo {
+	display: inline-block;
+	width: 250px;
+
+}
+
+
