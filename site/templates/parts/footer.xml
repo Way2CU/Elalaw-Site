@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+      <footer>
+           <div class="inner_wrap footer"> 
+                  <div class="footer_info">
+                              <a
+                              href="url_Make()"
+                              class="title_footer"
+                              cms:eval="href"
+                              >
+                                    <cms:text constant="title_footer"/>    
+                              </a>
+                              <a
+                              href="url_Make()"
+                              class="location"
+                              cms:eval="href"
+                              >
+                                     <cms:text constant="location"/>                 
+                              </a>                  
+                              <a
+                              href="url_Make()"
+                              class="phone"
+                              cms:eval="href"
+                              >
+                                    <cms:text constant="phone"/>  
+                              </a>
+                  </div>
+                  <cms:desktop>
+                        <cms:template file="parts/menu.xml"/> 
+                  </cms:desktop>  
+                        <img
+                        src="_BASEURL.'/images/logo-white.svg'"
+                        alt=""
+                        id="logo"
+                        eval="src"
+                        />
+            </div>
+      </footer>
+</document>

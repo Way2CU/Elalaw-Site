@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+        <cms:var name="_DOCTYPE"/>
+        <html lang="$language" cms:eval="lang">
+            <!-- this is home -->
+                <head>
+                        <title><cms:text constant="site_title"/></title>
+                        <cms:module name="head_tag" action="print_tag"/>
+                </head>
+        
+                <body class="rtl">
+                        <cms:template file="parts/header.xml"/>
+                        <!-- Content Start-->
+                                <div id="content">
+                                   <div class="inner_wrap">
+                                    <!--  inner wrap content -->
+                                    <div class="articles_upper">
+                                    <cms:desktop>
+                                        <h1 class="atricles upper">
+                                            <cms:text constant="articles_center_page"/>
+                                        </h1>
+                                        <cms:module
+                                            name="articles"
+                                            action="show"
+                                            text_id="atricles_top"
+                                        />
+                                        <div class="articles_secound">
+                                            <h3>
+                                                <cms:text constant="h3_articles"/>
+                                            </h3>
+                                            <cms:module
+                                                name="articles"
+                                                action="show"
+                                                text_id="secound_articles"
+                                            />
+                                        </div>
+                                    </cms:desktop>
+                                    <cms:mobile>
+                                         <h6>
+                                            <cms:text constant="last_mobile_text"/>
+                                        </h6>
+                                            <cms:module
+                                                name="articles"
+                                                action="show"
+                                                text_id="mobile_top_article"
+                                            />
+                                            <div class="mobile_secound_articles">
+                                                <cms:module
+                                                    name="articles"
+                                                    action="show"
+                                                    text_id="mobile_secound_articles"
+                                                />
+                                        </div>
+                                    </cms:mobile>
+                                   </div>
+                                 <!-- Content End -->
+                                </div>
+                            </div>
+                        <cms:template file="parts/footer.xml"/>
+                </body>
+        </html>
+</document>

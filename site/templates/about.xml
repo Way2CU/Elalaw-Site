@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+        <cms:var name="_DOCTYPE"/>
+        <html lang="$language" cms:eval="lang">
+                <head>
+                        <title><cms:text constant="site_title"/></title>
+                        <cms:module name="head_tag" action="print_tag"/>
+                </head>
+        
+                <body class="rtl">
+                <cms:template file="parts/header.xml"/>
+                <!-- Content Start-->
+                    <div id="content">
+                        <div class="inner_wrap">
+                           <div class="one_third about">
+                               <cms:module
+                                   name="articles"
+                                   action="show"
+                                   text_id="right_article"
+                               />
+                           </div>
+                           <div class="two_third about">
+                               <cms:module
+                                   name="articles"
+                                   action="show"
+                                   text_id="left_upper"
+                               />
+                               <cms:module
+                                   name="articles"
+                                   action="show"
+                                   text_id="left_upper_secound"
+                               />
+                           </div>
+                           <span class="hr"></span>
+                           <div class="one_third secound">
+                                <h1 class="thumbnail">
+                                  <cms:text constant="center_text_list"/>
+                                </h1>
+                                <cms:module
+                                                name="articles"
+                                                action="show"
+                                                text_id="list_home"
+                                                template="parts/article_force_inline_noh1.xml"
+                                            />
+                           </div>
+                           <cms:desktop>
+                             <div class="two_third about">
+                                <h1 class="thumbnail">
+                                  <cms:text constant="left_center_text_about"/>
+                                </h1>
+                               <cms:module
+                                 name="articles"
+                                 action="show"
+                                 text_id="about_right_text"
+                               />
+                             </div>
+                           </cms:desktop>
+                           <cms:mobile>
+                            <div class="about_article_last">
+                               <cms:module
+                                 name="articles"
+                                 action="show"
+                                 text_id="mobile_about_article_3"
+                               />
+                               </div>
+                           </cms:mobile>
+                        </div>
+                    </div>
+                <cms:template file="parts/footer.xml"/>
+                </body>
+        </html>
+</document>

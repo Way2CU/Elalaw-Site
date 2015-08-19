@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+        <cms:var name="_DOCTYPE"/>
+        <html lang="$language" cms:eval="lang">
+            <!-- this is home -->
+                <head>
+                        <title><cms:text constant="site_title"/></title>
+                        <cms:collection include="page_control"/>
+                        <cms:module name="head_tag" action="print_tag"/>
+                </head>
+        
+                <body class="rtl">
+                        <cms:template file="parts/header.xml"/>
+                        <!-- Content Start-->
+                                <div id="content">
+                                   <div class="inner_wrap">
+                                    <h1 class="areas">
+                                        <cms:text constant="center_text_areas"/>
+                                    </h1>
+                                    <div id="icons">
+                                         <a href="url_Make('', 'mekarkein')"
+                                            class="$section == 'areas-of-practice' ? 'mekarkein active' : 'mekarkein'"
+                                            cms:eval="href,class"
+                                            >
+                                                <cms:text constant="mekarkein"/>
+                                            </a>
+                                            <a href="url_Make('', 'planning')"
+                                                cms:eval="href,class"
+                                                class="$section == 'planning' ? 'planning active' : 'planning'"
+                                            >
+                                                <cms:text constant="planning"/>
+                                            </a>
+                                            <a href="url_Make('', 'commercial')"
+                                                cms:eval="href,class"
+                                                class="$section == 'commercial' ? 'commercial active' : 'commercial'"
+                                            >
+                                                <cms:text constant="commercial"/>
+                                            </a>
+                                            <a href="url_Make('', 'reposession')"
+                                                cms:eval="href,class"
+                                                class="$section == 'reposession' ? 'reposession active' : 'reposession'"
+                                            >
+                                                 <cms:text constant="reposession"/>
+                                            </a>
+                                    </div>
+                                        <div id="article_container">
+                                            <div class="dynamic_content">
+                                                <h3>
+                                                    <cms:text constant="mekarkein_text"/>
+                                                </h3>
+                                                <div class="two_third">
+                                                    <cms:module
+                                                            name="articles"
+                                                            action="show"
+                                                            text_id="mekarkein"
+                                                    />
+                                                    </div>
+                                                <div class="one_third">
+                                                    <img
+                                                            src="_BASEURL.'/images/photo-real-estate.jpg'"
+                                                            alt="technician"
+                                                            id=""
+                                                            cms:eval="src"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="dynamic_content">
+                                                <h3>
+                                                    <cms:text constant="planning_text"/>
+                                                </h3>
+                                                <div class="two_third">
+                                                    <cms:module
+                                                            name="articles"
+                                                            action="show"
+                                                            text_id="planning"
+                                                    />
+                                                    </div>
+                                                <div class="one_third">
+                                                    <img
+                                                            src="_BASEURL.'/images/photo-planning-and-zoning.jpg'"
+                                                            alt="technician"
+                                                            id=""
+                                                            cms:eval="src"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="dynamic_content">
+                                                <h3>
+                                                    <cms:text constant="commercial_text"/>
+                                                </h3>
+                                                <div class="two_third">
+                                                    <cms:module
+                                                            name="articles"
+                                                            action="show"
+                                                            text_id="commercial"
+                                                    />
+                                                    </div>
+                                                <div class="one_third">
+                                                    <img
+                                                            src="_BASEURL.'/images/photo-commercial-and-companies.jpg'"
+                                                            alt="technician"
+                                                            id=""
+                                                            cms:eval="src"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="dynamic_content">
+                                                <h3>
+                                                    <cms:text constant="reposession_text"/>
+                                                </h3>
+                                                <div class="two_third">
+                                                    <cms:module
+                                                            name="articles"
+                                                            action="show"
+                                                            text_id="reposession"
+                                                    />
+                                                    </div>
+                                                <div class="one_third">
+                                                    <img
+                                                            src="_BASEURL.'/images/photo-execution.jpg'"
+                                                            alt="technician"
+                                                            id=""
+                                                            cms:eval="src"
+                                                    />
+                                                </div>
+                                            </div>                                                                                                                        
+                                        </div>
+                                    </div>
+                                    <!-- end of inner wrap content -->
+                                   </div>
+                                 <!-- Content End -->
+                        <cms:template file="parts/footer.xml"/>
+                </body>
+        </html>
+</document>

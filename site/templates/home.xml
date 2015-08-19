@@ -1,15 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
 <document>
-	<cms:var name="_DOCTYPE"/>
-	<html lang="$language" cms:eval="lang">
-		<head>
-			<title><cms:text constant="site_title"/></title>
-			<cms:module name="head_tag" action="print_tag"/>
-		</head>
-
-		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
-		</body>
-	</html>
+        <cms:var name="_DOCTYPE"/>
+        <html lang="$language" cms:eval="lang">
+            <!-- this is home -->
+                <head>
+                        <title><cms:text constant="site_title"/></title>
+                        <cms:module name="head_tag" action="print_tag"/>
+                </head>
+        
+                <body class="rtl">
+                        <cms:template file="parts/header.xml"/>
+                        <!-- Content Start-->
+                                <div id="content">
+                                   <div class="inner_wrap">
+                                    <cms:desktop>
+                                        <div class="home_menu_container">
+                                                <a
+                                                href="url_Make()"
+                                                class="home_menu"
+                                                cms:eval="href"
+                                                >
+                                                        <span class="menu_img first"></span>
+                                                        <span class="title">
+                                                                <cms:text constant="about"/>
+                                                        </span>
+                                                        <span class="sub_title">
+                                                                <cms:text constant="home_about"/>
+                                                        </span>       
+                                                </a>
+                                                <a
+                                                href="url_Make()"
+                                                class="home_menu"
+                                                cms:eval="href"
+                                                >
+                                                        <span class="menu_img second"></span>
+                                                        <span class="title">
+                                                                <cms:text constant="thumei_isuk"/>
+                                                        </span>
+                                                        <span class="sub_title">
+                                                                <cms:text constant="home_ti"/>
+                                                        </span>       
+                                                </a>
+                                                <a
+                                                href="url_Make()"
+                                                class="home_menu"
+                                                cms:eval="href"
+                                                >
+                                                        <span class="menu_img third"></span>
+                                                        <span class="title">
+                                                                <cms:text constant="title"/>
+                                                        </span>
+                                                        <span class="sub_title">
+                                                                <cms:text constant="home_title"/>
+                                                        </span>       
+                                                </a>
+                                                <a
+                                                href="url_Make()"
+                                                class="home_menu"
+                                                cms:eval="href"
+                                                >
+                                                        <span class="menu_img fourth"></span>
+                                                        <span class="title">
+                                                                <cms:text constant="articles"/>
+                                                        </span>
+                                                        <span class="sub_title">
+                                                                <cms:text constant="home_articles"/>
+                                                        </span>       
+                                                </a>
+                                                <a
+                                                href="url_Make()"
+                                                class="home_menu"
+                                                cms:eval="href"
+                                                >
+                                                        <span class="menu_img fifth"></span>
+                                                        <span class="title">
+                                                                <cms:text constant="contact"/> 
+                                                        </span>
+                                                        <span class="sub_title">
+                                                                <cms:text constant="home_contact"/> 
+                                                        </span>       
+                                                </a>
+                                        </div>
+                                        <div class="two_third">
+                                            <cms:module
+                                                name="articles"
+                                                action="show"
+                                                text_id="about_home"
+                                                template="parts/article_force_inline.xml"
+                                            />
+                                        </div>
+                                        </cms:desktop>
+                                        <cms:mobile>
+                                            <!-- DIV1  -->
+                                            <div class="mobile_home_upper one">
+                                                <img
+                                                    src="_BASEURL.'/images/about-blue.png'"
+                                                    alt="about"
+                                                    cms:eval="src"
+                                                />
+                                                <h1>
+                                                    <cms:text constant="about"/>
+                                                </h1>
+                                                <span>
+                                                    <cms:text constant="about_text"/>
+                                                </span>
+                                            </div>
+                                                <!-- DIV2  -->
+                                                <div class="mobile_home_upper two">
+                                                <img
+                                                    src="_BASEURL.'/images/areas-of-practice-blue.png'"
+                                                    alt="about"
+                                                    cms:eval="src"
+                                                />
+                                                <h1>
+                                                    <cms:text constant="about"/>
+                                                </h1>
+                                                <span>
+                                                    <cms:text constant="about_text"/>
+                                                </span>
+                                            </div>
+                                                <!-- DIV3  -->
+                                                <div class="mobile_home_upper three">
+                                                <img
+                                                    src="_BASEURL.'/images/book-icon-blue.png'"
+                                                    alt="about"
+                                                    cms:eval="src"
+                                                />
+                                                <h1>
+                                                    <cms:text constant="about"/>
+                                                </h1>
+                                                <span>
+                                                    <cms:text constant="about_text"/>
+                                                </span>
+                                            </div>
+                                                <!-- DIV4  -->
+                                            <div class="mobile_home_upper four">
+                                                <img
+                                                    src="_BASEURL.'/images/article-blue.png'"
+                                                    alt="about"
+                                                    cms:eval="src"
+                                                />
+                                                <h1>
+                                                    <cms:text constant="about"/>
+                                                </h1>
+                                                <span>
+                                                    <cms:text constant="about_text"/>
+                                                </span>
+                                            </div>
+                                            <!-- DIV5  -->
+                                                <div class="mobile_home_upper five">
+                                                <img
+                                                    src="_BASEURL.'/images/icon-contact-us-blue.svg'"
+                                                    alt="about"
+                                                    class="blue"
+                                                    cms:eval="src"
+                                                />
+                                                <h1>
+                                                    <cms:text constant="about"/>
+                                                </h1>
+                                                <span>
+                                                    <cms:text constant="about_text"/>
+                                                </span>
+                                            </div>
+                                            </cms:mobile>
+                                            <div class="home_about_mobile" />
+                                                <cms:module
+                                                    name="articles"
+                                                    action="show"
+                                                    text_id="about_home"
+                                                    template="parts/article_force_inline.xml"
+                                                />
+                                            <div class="one_third">
+                                                <h1 class="thumbnail">
+                                                    <cms:text constant="center_text_list"/>
+                                                </h1>
+                                                <cms:module
+                                                    name="articles"
+                                                    action="show"
+                                                    text_id="list_home"
+                                                    template="parts/article_force_inline_noh1.xml"
+                                                />
+                                            </div>
+                                        </div>
+                                    <!-- end of inner wrap content -->
+                                   </div>
+                                 <!-- Content End -->
+                        <cms:template file="parts/footer.xml"/>
+                </body>
+        </html>
 </document>

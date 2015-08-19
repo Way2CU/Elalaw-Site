@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:desktop>
+		<nav id="menu">
+			<a
+			href="url_Make()"
+			class="($section == 'home' ? 'active menu ' : '').'home'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="home"/>
+			</a>
+			<a
+			href="url_Make('', 'about')"
+			class="($section == 'about' ? 'active menu ' : '').'about'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="about"/>
+			</a>
+			<a
+			href="url_Make('', 'areas-of-practice')"
+			class="($section == 'areas-of-practice' ? 'active menu ' : '').'areas-of-practice'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="thumei_isuk"/>
+			</a>	
+			<a
+			href="url_Make('', 'articles')"
+			class="($section == 'articles' ? 'active menu ' : '').'articles'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="articles"/>	
+			</a>
+			<a
+			href="url_Make('', 'contact')"
+			class="($section == 'contact' ? 'active menu ' : '').'contact'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="contact"/>
+			</a>
+		</nav>
+	</cms:desktop>
+	<cms:mobile>
+		<nav id="menu">
+			<a
+			href="url_Make()"
+			class="($section == 'home' ? 'active ' : '').'home'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="home"/>
+			</a>
+			<a
+			href="url_Make('', 'about')"
+			class="($section == 'about' ? 'active ' : '').'about'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="about"/>
+			</a>
+			<a
+			href="url_Make('', 'areas-of-practice')"
+			class="($section == 'areas-of-practice' ? 'active ' : '').'areas-of-practice'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="thumei_isuk"/>
+			</a>	
+			<a
+			href="url_Make('', 'articles')"
+			class="($section == 'articles' ? 'active ' : '').'articles'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="articles"/>	
+			</a>
+			<a
+			href="url_Make('', 'contact')"
+			class="($section == 'contact' ? 'active ' : '').'contact'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="contact"/>
+			</a>
+		</nav>
+	</cms:mobile>
+</document>

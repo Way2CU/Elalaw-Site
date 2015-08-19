@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+      <header>
+      <div class="inner_wrap">
+      <cms:desktop>
+    		<img
+    		src="_BASEURL.'/images/logo.svg'"
+    		alt=""
+    		id="logo"
+    		eval="src"
+    		/>
+        <cms:template file="parts/menu.xml"/>
+        <a
+  			href="url_Make()"
+  			class="phone"
+  			cms:eval="href"
+  			>
+  				<cms:text constant="phone"/>	
+  			</a>
+      </cms:desktop>
+	</div>
+      <cms:mobile>
+              <div class="mobile_title">
+                      <a
+                               href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+                               cms:eval="href"
+                               class="phone"
+                      ></a>
+                      <img
+                                      src="_BASEURL.'/images/logo.svg'"
+                                      alt="logo"
+                                      cms:eval="src"
+                              />
+              </div>
+              <div class="mobile_menu">
+              <cms:template file="parts/menu.xml"/>
+              </div>
+      </cms:mobile>
+      </header>
+</document>

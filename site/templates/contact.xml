@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+        <cms:var name="_DOCTYPE"/>
+        <html lang="$language" cms:eval="lang">
+            <!-- this is home -->
+                <head>
+                        <title><cms:text constant="site_title"/></title>
+                        <cms:module name="head_tag" action="print_tag"/>
+                </head>
+        
+                <body class="rtl">
+                        <cms:template file="parts/header.xml"/>
+                        <!-- Content Start-->
+                                <div id="content">
+                                   <div class="inner_wrap">
+                                    <cms:desktop>
+                                        <!-- inner wrap content -->
+                                        <h1 class="contact">
+                                            <cms:text constant="center_contact_text"/>
+                                        </h1>
+                                        <div class="two_third contact">
+                                            <h3>
+                                                <cms:text constant="contact_h3"/>
+                                            </h3>
+                                             <cms:module
+                                                 name="articles"
+                                                 action="show"
+                                                 text_id="contact_article"
+                                             />
+                                             <img
+                                                 src="_BASEURL.'/images/ella.jpg'"
+                                                 alt=""
+                                                 id=""
+                                                 cms:eval="src"
+                                             />
+                                             <a href="tel:%28888%29+888-8888">(888) 888-8888</a>
+                                             <h5>
+                                                <cms:text constant="address"/>
+                                            </h5>
+                                        </div>
+                                        <div class="one_third contact">
+                                            <h4>
+                                                <cms:text constant="h4_text_contact"/>
+                                            </h4>
+                                                <cms:module 
+                                                    name="contact_form" 
+                                                    action="show" 
+                                                    text_id="contact_form"
+                                                    />
+                                    </div>
+                                     </cms:desktop>
+                                     <cms:mobile>
+                                         <h1 class="contact">
+                                             <cms:text constant="mobile_contact_h1"/>
+                                         </h1>
+                                         <h2 class="contact">
+                                             <cms:text constant="mobile_contact_h2"/>
+                                         </h2>
+                                         <cms:module
+                                             name="articles"
+                                             action="show"
+                                             text_id="mobile_text_upper"
+                                         />
+                                        <div class="contact secound">
+                                            <h3>
+                                                <cms:text constant="mobile_img_text"/>
+                                             </h3>
+                                             <div class="one_third contact">
+                                                 <cms:module 
+                                                     name="contact_form" 
+                                                     action="show" 
+                                                     text_id="contact_form"
+                                                     />
+                                            </div>
+                                        </div>
+                                     </cms:mobile>
+                                   </div>
+                                 <!-- Content End -->
+                                </div>
+                        <cms:template file="parts/footer.xml"/>
+                </body>
+        </html>
+</document>
