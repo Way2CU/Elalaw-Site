@@ -41,16 +41,16 @@ div.article.force_inline{
 	width: 560px;
 	vertical-align: top;
 	padding-right: 50px;
-	color: #133368;
+	color: #145b94;
 }
 
 ul.force_inline{
-	width: 100px;
+	width: 120px;
 	vertical-align: top;
 }
 
 h1.thumbnail{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/icon-pin-orange.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -60,7 +60,7 @@ h1.thumbnail{
 
 h1{
 	text-align: right;
-	color: #133469;
+	color: #145b94;
 	font-size: 2em;
 }
 
@@ -71,7 +71,7 @@ div.two_third div.article.force_inline{
 	padding-right: 212px;
 }
 body {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/site-background.jpg);
     background-position: center top;
 }
 
@@ -87,16 +87,17 @@ body {
 div#content div.inner_wrap div.home_menu_container {
 	display: block;
 	text-align: center;
-	padding-top: 40px;
+	padding: 40px 0;
 
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu {
 	display: inline-block;
 	vertical-align: top;
-	width: 200px;
+	width: 164px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin: 0px 17.5px;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center 445px, center top;
 	background-size: 200px, 200px;
@@ -109,40 +110,62 @@ div#content div.inner_wrap div.home_menu_container a.home_menu {
 }
 
 div#content div.inner_wrap div.home_menu_container:hover{
-	color: #133368;
+	color: #145b94;
 }
 
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:hover {
-	background-position: center 195px, center top;
-}
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.first{
-	background-image: url(../images/about-blue.png);	
+	background-image: url(../images/about-blue.png);
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu {
+    background-image: url(../images/shape.svg), url(../images/all-sprite.jpg);
+    background-size: 200px, 950px 305px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu {
+	background-position: center 445px, 0px 0px;
+	transition: 0.3s;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(1) {
-	background-image: url(../images/shape.svg), url(../images/ella.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:hover.nth-of-type(1) {
-	background-image: url(../images/shape.svg), url(../images/ella.jpg);
+	background-position: center 445px, -763px 0px;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(2) {
-	background-image: url(../images/shape.svg), url(../images/subjects.jpg);
+	background-position: center 445px, -573px 0px;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(3) {
-	background-image: url(../images/shape.svg), url(../images/writing.jpg);
+	background-position: center 445px, -383px 0px;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(4) {
-	background-image: url(../images/shape.svg), url(../images/articles.jpg);
+	background-position: center 445px, -193px 0px;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(5) {
-	background-image: url(../images/shape.svg) , url(../images/contactus.jpg);
+	background-position: center 445px, 1px 0px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(1):hover {
+	background-position: center 195px, -763px 0px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(2):hover {
+	background-position: center 195px, -573px 0px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(3):hover {
+	background-position: center 195px, -383px 0px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(4):hover {
+	background-position: center 195px, -193px 0px;
+}
+
+div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(5):hover {
+	background-position: center 195px, 1px 0px;
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu img {
@@ -221,18 +244,18 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.title {
 	display: block;
 	font-size: 2.0em;
 	padding-top: 10px;
-	
+
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu span.sub_title {
 	display: block;
 	padding-bottom: 15px;
 	height: 50px;
-	
+
 }
 
 a.active.menu {
-	background-color: #133368;
+	background-color: #145b94;
 	color: white;
 }
 
@@ -241,12 +264,12 @@ div#content div.inner_wrap div.one_third.about div.article{
 	background-image: url(../images/ella.jpg);
 	background-repeat: no-repeat;
 	background-position: top right;
-	
+
 }
 
 div#content div.inner_wrap div.one_third.about div.article h1{
 	padding-top: 310px;
-	color: #133368;
+	color: #145b94;
 }
 
 div#content div.inner_wrap div.one_third div.article p{
@@ -268,7 +291,7 @@ div#content div.inner_wrap div.two_third.about div.article li{
 div#content div.inner_wrap span.hr{
 	display: block;
 	width: 1200px;
-	border-bottom: 3px solid #133368;
+	border-bottom: 3px solid #145b94;
 }
 
 div#content div.inner_wrap div.one_third.secound{
@@ -277,7 +300,7 @@ div#content div.inner_wrap div.one_third.secound{
 
 /*areas-of-practice*/
 div#content div.inner_wrap h1.areas{
-	color: #133368;
+	color: #145b94;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 20px;

@@ -8,7 +8,7 @@
                         <title><cms:text constant="site_title"/></title>
                         <cms:module name="head_tag" action="print_tag"/>
                 </head>
-        
+
                 <body class="rtl">
                         <cms:template file="parts/header.xml"/>
                         <!-- Content Start-->
@@ -17,7 +17,7 @@
                                     <cms:desktop>
                                         <div class="home_menu_container">
                                                 <a
-                                                href="url_Make()"
+                                                href="url_Make('', 'about')"
                                                 class="home_menu"
                                                 cms:eval="href"
                                                 >
@@ -27,10 +27,10 @@
                                                         </span>
                                                         <span class="sub_title">
                                                                 <cms:text constant="home_about"/>
-                                                        </span>       
+                                                        </span>
                                                 </a>
                                                 <a
-                                                href="url_Make()"
+                                                href="url_Make('', 'areas-of-practice')"
                                                 class="home_menu"
                                                 cms:eval="href"
                                                 >
@@ -40,10 +40,10 @@
                                                         </span>
                                                         <span class="sub_title">
                                                                 <cms:text constant="home_ti"/>
-                                                        </span>       
+                                                        </span>
                                                 </a>
                                                 <a
-                                                href="url_Make()"
+                                                href="url_Make('', 'articles')"
                                                 class="home_menu"
                                                 cms:eval="href"
                                                 >
@@ -53,10 +53,10 @@
                                                         </span>
                                                         <span class="sub_title">
                                                                 <cms:text constant="home_title"/>
-                                                        </span>       
+                                                        </span>
                                                 </a>
                                                 <a
-                                                href="url_Make()"
+                                                href="url_Make('', 'articles')"
                                                 class="home_menu"
                                                 cms:eval="href"
                                                 >
@@ -66,20 +66,20 @@
                                                         </span>
                                                         <span class="sub_title">
                                                                 <cms:text constant="home_articles"/>
-                                                        </span>       
+                                                        </span>
                                                 </a>
                                                 <a
-                                                href="url_Make()"
+                                                href="url_Make('', 'contact')"
                                                 class="home_menu"
                                                 cms:eval="href"
                                                 >
                                                         <span class="menu_img fifth"></span>
                                                         <span class="title">
-                                                                <cms:text constant="contact"/> 
+                                                                <cms:text constant="contact"/>
                                                         </span>
                                                         <span class="sub_title">
-                                                                <cms:text constant="home_contact"/> 
-                                                        </span>       
+                                                                <cms:text constant="home_contact"/>
+                                                        </span>
                                                 </a>
                                         </div>
                                         <div class="two_third">
@@ -164,13 +164,6 @@
                                                 </span>
                                             </div>
                                             </cms:mobile>
-                                            <div class="home_about_mobile" />
-                                                <cms:module
-                                                    name="articles"
-                                                    action="show"
-                                                    text_id="about_home"
-                                                    template="parts/article_force_inline.xml"
-                                                />
                                             <div class="one_third">
                                                 <h1 class="thumbnail">
                                                     <cms:text constant="center_text_list"/>
@@ -182,7 +175,6 @@
                                                     template="parts/article_force_inline_noh1.xml"
                                                 />
                                             </div>
-                                        </div>
                                     <!-- end of inner wrap content -->
                                    </div>
                                  <!-- Content End -->

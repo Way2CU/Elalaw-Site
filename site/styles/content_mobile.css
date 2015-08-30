@@ -1,11 +1,11 @@
 /**
  *  Content Style Sheet
- * 
+ *
  *
  * Copyright (c) 2014. by way2cu
  * Author: khalid Sawalhi
  */
- 
+
 body{
 	margin: 0px;
 	padding:0px;
@@ -26,18 +26,18 @@ header {
         position: relative;
         padding-bottom: 30px;
 }
- 
+
 a.logo {
         position: absolute;
         bottom: 15px;
         right: 40px;
 }
- 
+
 a.logo img {
         height: 85px;
         outline: 0px;
 }
- 
+
 a.menu {
         position: absolute;
         left: 0px;
@@ -45,11 +45,11 @@ a.menu {
         height: 100%;
         width: 50px;
 }
- 
+
 nav#menu {
         margin-top: 10px;
 }
- 
+
 body.rtl .mobile_title {
         text-align: center;
        background-image: url(../images/nav_menu.svg);
@@ -61,7 +61,7 @@ body.rtl .mobile_title {
         height: 50px;
         box-shadow: 0px 10px 25px 0px rgba(50, 50, 50, 0.34);
 }
- 
+
  header div.mobile_title img {
 	width: 148px;
 	background-color: white;
@@ -71,21 +71,21 @@ body.rtl .mobile_title {
 body.rtl .mobile_title.menu_visible {
         background-position: 105% center;
 }
- 
+
 .mobile_title img {
         width: 50px;
 }
- 
+
 body.rtl .mobile_title a.menu {
         position: absolute;
         right: 10px;
 }
- 
+
 body.rtl .mobile_menu {
         background: #DFEBF3;
         width: 150px;
 }
- 
+
 header a.phone {
         padding-left: 35px;
         position: absolute;
@@ -131,7 +131,7 @@ header a.phone {
 div.article.force_inline{
 	text-align: center;
 	vertical-align: top;
-	color: #133368;
+	color: #145b94;
 }
 
 ul.force_inline{
@@ -144,7 +144,7 @@ li{
 }
 
 h1.thumbnail{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/icon-pin-orange.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -254,7 +254,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu {
 }
 
 div#content div.inner_wrap div.home_menu_container:hover{
-	color: #133368;
+	color: #145b94;
 }
 
 
@@ -263,7 +263,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu:hover {
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.first{
-	background-image: url(../images/about-blue.png);	
+	background-image: url(../images/about-blue.png);
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(1) {
@@ -365,24 +365,24 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.title {
 	display: block;
 	font-size: 2.0em;
 	padding-top: 10px;
-	
+
 }
 
 div#content div.inner_wrap div.home_menu_container a.home_menu span.sub_title {
 	display: block;
 	padding-bottom: 15px;
 	height: 50px;
-	
+
 }
 
 a.active.menu {
-	background-color: #133368;
+	background-color: #145b94;
 }
 
 /*about page */
 
 div#content div.inner_wrap div.one_third.about div.article h1{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -391,7 +391,7 @@ div#content div.inner_wrap div.one_third.about div.article h1{
 }
 
 div#content div.inner_wrap div.two_third.about div.article h1{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -417,7 +417,7 @@ div#content div.inner_wrap div.one_third.secound{
 	padding-bottom: 87px;
 }
 div#content div.inner_wrap div.one_third.secound h1.thumbnail{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -433,7 +433,7 @@ div#content div.inner_wrap div.about_article_last{
 }
 
 div#content div.inner_wrap div.about_article_last div.article h1{
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -447,7 +447,7 @@ div#content div.inner_wrap div.about_article_last div.article h1{
 
 
 div#content div.inner_wrap h1.areas{
-	color: #133368;
+	color: #145b94;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -593,7 +593,7 @@ padding-top: 114px;
 
 div#content div.inner_wrap div.articles_upper h6{
 	display: block;
-	color: #133368;
+	color: #145b94;
 	background-image: url(../images/articles-icon-mobile.svg);
 	background-repeat: no-repeat;
 	background-position: top center;

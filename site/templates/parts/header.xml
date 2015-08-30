@@ -5,7 +5,7 @@
       <div class="inner_wrap">
       <cms:desktop>
     		<img
-    		src="_BASEURL.'/images/logo.svg'"
+    		src="_BASEURL.'/site/images/logo-new-color.svg'"
     		alt=""
     		id="logo"
     		eval="src"
@@ -16,7 +16,7 @@
   			class="phone"
   			cms:eval="href"
   			>
-  				<cms:text constant="phone"/>	
+  				<cms:text constant="phone"/>
   			</a>
       </cms:desktop>
 	</div>
@@ -28,7 +28,7 @@
                                class="phone"
                       ></a>
                       <img
-                                      src="_BASEURL.'/images/logo.svg'"
+                                      src="/_BASEURL.'/site/images/logo-new-color.svg'"
                                       alt="logo"
                                       cms:eval="src"
                               />

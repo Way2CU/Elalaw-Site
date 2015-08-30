@@ -8,12 +8,13 @@
 footer {
 	display: block;
 	vertical-align: top;
-	background-color: #133368;
-	border-top: solid 10px #6A6A6A;	
+	background-color: #145b94;
+	border-top: solid 10px #6A6A6A;
 }
 
 footer div.inner_wrap.footer {
 	background-color: rgba(255, 255, 255, 0);
+	color: white;
 	text-align: center;
 	vertical-align: top;
 	padding-top: 40px;
@@ -51,7 +52,7 @@ footer  a.title_footer {
 	margin-left: 20px;
 	text-align: right;
 	padding-right: 15px;
-	font-size: 1.1em; 
+	font-size: 1.1em;
 
 }
 
@@ -75,7 +76,7 @@ footer div.inner_wrap.footer nav {
 
 footer div.inner_wrap.footer nav a {
 	display: inline-block;
-	
+
 	padding: 10px;
 	color: white;
 	transition: 0.3s all;
@@ -84,7 +85,7 @@ footer div.inner_wrap.footer nav a {
 
 footer div.inner_wrap.footer nav a:hover {
 	background-color: white;
-	color: #133368;
+	color: #145b94;
 }
 
 footer div.inner_wrap.footer img#logo {
