@@ -342,10 +342,6 @@ div#content div.inner_wrap div#icons a:hover {
 	color: #e5871b ;
 }
 
-div#content div.inner_wrap div#icons a.active {
-	color: #e5871b ;
-}
-
 div#content div.inner_wrap div#icons a.mekarkein:after {
 	background-position: -600px 0px;
 	transition: 0.3s all;
@@ -355,19 +351,11 @@ div#content div.inner_wrap div#icons a.mekarkein:hover:after {
 	background-position: -600px -225px;
 }
 
-div#content div.inner_wrap div#icons a.mekarkein.active:after {
-	background-position: -600px -225px;
-}
-
 div#content div.inner_wrap div#icons a.planning:after {
 	background-position: -400px 0px;
 }
 
 div#content div.inner_wrap div#icons a.planning:hover:after {
-	background-position: -400px -225px;
-}
-
-div#content div.inner_wrap div#icons a.planning.active:after {
 	background-position: -400px -225px;
 }
 
@@ -380,10 +368,6 @@ div#content div.inner_wrap div#icons a.commercial:hover:after {
 	background-position: -200px -225px;
 }
 
-div#content div.inner_wrap div#icons a.commercial.active:after {
-	background-position: -200px -225px;
-}
-
 
 div#content div.inner_wrap div#icons a.reposession:after {
 	background-position: 0px 0px;
@@ -393,18 +377,20 @@ div#content div.inner_wrap div#icons a.reposession:hover:after {
 	background-position: 0px -225px;
 }
 
-div#content div.inner_wrap div#icons a.reposession.active:after {
-	background-position: 0px -225px;
-}
 
 div#content div.inner_wrap div.dynamic_content {
-    display: none;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
 }
 
 div#content div.inner_wrap div#article_container{
-	padding-top: 100px;
+	display: block;
 	text-align: right;
-	padding-bottom: 63px;
+	min-height: 500px;
+	position: relative;
+
 }
 
 div#content div.inner_wrap div#article_container img{
