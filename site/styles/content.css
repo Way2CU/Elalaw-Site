@@ -272,6 +272,10 @@ div#content div.inner_wrap div.one_third.about div.article h1{
 	color: #145b94;
 }
 
+div#content div.inner_wrap .one_third.about img {
+    padding-top: 30px;
+}
+
 div#content div.inner_wrap div.one_third div.article p{
 	color: #6A6A6A;
 	padding-bottom: 32px;
@@ -393,6 +397,10 @@ div#content div.inner_wrap div#icons a.reposession.active:after {
 	background-position: 0px -225px;
 }
 
+div#content div.inner_wrap div.dynamic_content {
+    display: none;
+}
+
 div#content div.inner_wrap div#article_container{
 	padding-top: 100px;
 	text-align: right;
@@ -458,6 +466,7 @@ div.two_third.contact p{
 	font-size: 1em;
 	width: 324px;
 	text-align: right;
+	color: #6A6A6A;
 }
 
 div.two_third.contact h3{
@@ -515,6 +524,7 @@ div.one_third form{
 div.one_third form input{
 	margin: 0px;
 	margin-top: 25px;
+	width: 200px;
 	padding: 10px;
 	text-align: center;
 	font-size: 1em;
@@ -527,9 +537,16 @@ div.one_third form label{
 }
 
 div.one_third form label span {
-	display: inline-block;
-	margin: 0;
-	margin-left: 56px;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: #6A6A6A;
+}
+
+textarea {
+	width: 200px;
+	padding: 10px;
+	margin-top: 25px;
 }
 
 input[type="text"]{
@@ -555,6 +572,7 @@ h5{
 	width: 200px;
 	font-size: 1em;
 	text-align: right;
+	color: #6A6A6A;
 }
 
 div#content div.inner_wrap div.articles_upper div.article p{

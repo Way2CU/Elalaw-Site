@@ -17,9 +17,9 @@ footer div.inner_wrap.footer {
 	color: white;
 	text-align: center;
 	vertical-align: top;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	font-size: 1.4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1em;
 }
 
 footer div.inner_wrap div.footer_info {
@@ -46,6 +46,10 @@ footer div.inner_wrap div.footer_info a.phone {
 
 }
 
+.footer_info div.article p strong {
+    font-size: 1.2em;
+}
+
 footer  a.title_footer {
 	display: block;
 	vertical-align: top;
@@ -67,11 +71,10 @@ footer a.location {
 
 footer div.inner_wrap.footer nav {
 	display: inline-block;
-	vertical-align: top;
-	margin-top: 7px;
-	padding-left: 125px;
-	padding-right: 125px
-
+    vertical-align: top;
+    margin-top: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer div.inner_wrap.footer nav a {
@@ -91,7 +94,7 @@ footer div.inner_wrap.footer nav a:hover {
 footer div.inner_wrap.footer img#logo {
 	display: inline-block;
 	width: 250px;
-
+	padding-right: 50px;
 }
 
 

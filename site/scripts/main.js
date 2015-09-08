@@ -51,6 +51,11 @@ Site.is_mobile = function() {
 Site.on_load = function() {
 	if (Site.is_mobile())
 		Site.mobile_menu = new Caracal.MobileMenu();
+
+	$('div#icons').on('click', 'a', function () {
+	    $(this).siblings('.active').removeClass();
+	    $(this).toggleClass('active');
+	});
 };
 
 

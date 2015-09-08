@@ -20,7 +20,7 @@
   			</a>
       </cms:desktop>
 	</div>
-      <cms:mobile>
+      <!-- <cms:mobile>
               <div class="mobile_title">
                       <a
                                href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
@@ -36,6 +36,6 @@
               <div class="mobile_menu">
               <cms:template file="parts/menu.xml"/>
               </div>
-      </cms:mobile>
+      </cms:mobile> -->
       </header>
 </document>

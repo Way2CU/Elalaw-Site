@@ -9,7 +9,7 @@
                         <cms:collection include="page_control"/>
                         <cms:module name="head_tag" action="print_tag"/>
                 </head>
-        
+
                 <body class="rtl">
                         <cms:template file="parts/header.xml"/>
                         <!-- Content Start-->
@@ -19,26 +19,26 @@
                                         <cms:text constant="center_text_areas"/>
                                     </h1>
                                     <div id="icons">
-                                         <a href="url_Make('', 'mekarkein')"
+                                         <a href="javascript:(void)"
                                             class="$section == 'areas-of-practice' ? 'mekarkein active' : 'mekarkein'"
-                                            cms:eval="href,class"
+                                            cms:eval="class"
                                             >
                                                 <cms:text constant="mekarkein"/>
                                             </a>
-                                            <a href="url_Make('', 'planning')"
-                                                cms:eval="href,class"
+                                            <a href="javascript:(void)"
+                                                cms:eval="class"
                                                 class="$section == 'planning' ? 'planning active' : 'planning'"
                                             >
                                                 <cms:text constant="planning"/>
                                             </a>
-                                            <a href="url_Make('', 'commercial')"
-                                                cms:eval="href,class"
+                                            <a href="javascript:(void)"
+                                                cms:eval="class"
                                                 class="$section == 'commercial' ? 'commercial active' : 'commercial'"
                                             >
                                                 <cms:text constant="commercial"/>
                                             </a>
-                                            <a href="url_Make('', 'reposession')"
-                                                cms:eval="href,class"
+                                            <a href="javascript:(void)"
+                                                cms:eval="class"
                                                 class="$section == 'reposession' ? 'reposession active' : 'reposession'"
                                             >
                                                  <cms:text constant="reposession"/>
@@ -124,7 +124,7 @@
                                                             cms:eval="src"
                                                     />
                                                 </div>
-                                            </div>                                                                                                                        
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- end of inner wrap content -->

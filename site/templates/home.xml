@@ -49,10 +49,10 @@
                                                 >
                                                         <span class="menu_img third"></span>
                                                         <span class="title">
-                                                                <cms:text constant="title"/>
+                                                                <cms:text constant="shut"/>
                                                         </span>
                                                         <span class="sub_title">
-                                                                <cms:text constant="home_title"/>
+                                                                <cms:text constant="title"/>
                                                         </span>
                                                 </a>
                                                 <a
