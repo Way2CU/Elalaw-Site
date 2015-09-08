@@ -6,7 +6,7 @@
             <!-- this is home -->
                 <head>
                         <title><cms:text constant="site_title"/></title>
-                        <cms:collection include="page_control"/>
+                        <cms:collection include="page_control,animation_chain"/>
                         <cms:module name="head_tag" action="print_tag"/>
                 </head>
 
@@ -19,30 +19,25 @@
                                         <cms:text constant="center_text_areas"/>
                                     </h1>
                                     <div id="icons">
-                                         <a href="javascript:(void)"
-                                            class="$section == 'areas-of-practice' ? 'mekarkein active' : 'mekarkein'"
-                                            cms:eval="class"
+                                         <a href="javascript:void(0)"
                                             >
                                                 <cms:text constant="mekarkein"/>
-                                            </a>
-                                            <a href="javascript:(void)"
-                                                cms:eval="class"
-                                                class="$section == 'planning' ? 'planning active' : 'planning'"
-                                            >
-                                                <cms:text constant="planning"/>
-                                            </a>
-                                            <a href="javascript:(void)"
-                                                cms:eval="class"
-                                                class="$section == 'commercial' ? 'commercial active' : 'commercial'"
-                                            >
-                                                <cms:text constant="commercial"/>
-                                            </a>
-                                            <a href="javascript:(void)"
-                                                cms:eval="class"
-                                                class="$section == 'reposession' ? 'reposession active' : 'reposession'"
-                                            >
-                                                 <cms:text constant="reposession"/>
-                                            </a>
+                                        </a>
+
+                                        <a href="javascript:void(0)"
+                                        >
+                                            <cms:text constant="planning"/>
+                                        </a>
+                                        <a href="javascript:void(0)"
+
+                                        >
+                                            <cms:text constant="commercial"/>
+                                        </a>
+                                        <a href="javascript:void(0)"
+
+                                        >
+                                             <cms:text constant="reposession"/>
+                                        </a>
                                     </div>
                                         <div id="article_container">
                                             <div class="dynamic_content">
