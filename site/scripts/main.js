@@ -49,15 +49,17 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+
 	if (Site.is_mobile())
 		Site.mobile_menu = new Caracal.MobileMenu();
 
-	$('div#icons').on('click', 'a', function () {
-	    $(this).siblings('.active').removeClass();
-	    $(this).toggleClass('active');
-	});
-};
 
+	Site.Profession = new PageControl('div#article_container','div.dynamic_content');
+	Site.Profession
+		.attachControls($('div#icons a'))
+		.setPauseOnHover(false)
+		.setWrapAround(true);	
+};
 
 // connect document `load` event with handler function
 $(Site.on_load);
