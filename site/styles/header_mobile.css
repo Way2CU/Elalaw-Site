@@ -1,0 +1,84 @@
+/**
+ * Header Mobile Style Sheet
+ * Ella Lawyer Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ header {
+ 	display: block;	
+ }
+
+div.mobile_title {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+    color: white;
+    transition: 0.3s all;
+    transform: translateZ(0);
+}
+
+div.mobile_title img {
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	height: 67px;
+}
+
+div.mobile_title a.phone {
+    position: absolute;
+    padding-left: 0px;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    color: white;
+    text-decoration: none;
+    background-image: url(../images/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+}
+
+div.mobile_title a.menu {
+	position: absolute;
+	right: 0px;
+	top:50%;
+	margin-top: -20px;
+	background-image: url(../images/nav_menu.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	transition:all 0.3s;
+}
+
+div.mobile_title.visible a.menu {
+	right: -15px;
+}
+
+nav.mobile_menu {
+	top: 77px !important;
+}
+
+nav.mobile_menu a {
+	font-size: 1.2em;
+	border-bottom: 1px solid #145B94;	
+}
+
+nav.mobile_menu.visible {
+	top: 77px !important;
+	width: 100%;
+}
+
