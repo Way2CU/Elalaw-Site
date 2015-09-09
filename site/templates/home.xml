@@ -91,6 +91,17 @@
                                                 template="parts/article_force_inline.xml"
                                             />
                                         </div>
+                                        <div class="one_third">
+                                                <h1 class="thumbnail">
+                                                    <cms:text constant="center_text_list"/>
+                                                </h1>
+                                                <cms:module
+                                                    name="articles"
+                                                    action="show"
+                                                    text_id="list_home"
+                                                    template="parts/article_force_inline_noh1.xml"
+                                                />
+                                            </div>
                                         </cms:desktop>
                                         <cms:mobile>
                                             <div class="two_third">
