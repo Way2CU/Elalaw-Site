@@ -41,7 +41,7 @@
 		</nav>
 	</cms:desktop>
 	<cms:mobile>
-		<nav id="menu">
+		<nav class="mobile_menu">
 			<a
 			href="url_Make()"
 			class="($section == 'home' ? 'active ' : '').'home'"
