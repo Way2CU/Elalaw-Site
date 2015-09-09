@@ -57,7 +57,7 @@ Site.on_load = function() {
 	Site.Profession = new PageControl('div#article_container','div.dynamic_content');
 	Site.Profession
 		.attachControls($('div#icons a'))
-		.setPauseOnHover(false)
+		.setPauseOnHover(false)		
 		.setWrapAround(true);	
 };
 
