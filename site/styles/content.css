@@ -347,7 +347,12 @@ div#content div.inner_wrap div#icons a.mekarkein:after {
 	transition: 0.3s all;
 }
 
+
 div#content div.inner_wrap div#icons a.mekarkein:hover:after {
+	background-position: -600px -225px;
+}
+
+div#content div.inner_wrap div#icons a.mekarkein.active:after {
 	background-position: -600px -225px;
 }
 
@@ -356,6 +361,10 @@ div#content div.inner_wrap div#icons a.planning:after {
 }
 
 div#content div.inner_wrap div#icons a.planning:hover:after {
+	background-position: -400px -225px;
+}
+
+div#content div.inner_wrap div#icons a.planning.active:after {
 	background-position: -400px -225px;
 }
 
@@ -368,6 +377,10 @@ div#content div.inner_wrap div#icons a.commercial:hover:after {
 	background-position: -200px -225px;
 }
 
+div#content div.inner_wrap div#icons a.commercial.active:after {
+	background-position: -200px -225px;
+}
+
 
 div#content div.inner_wrap div#icons a.reposession:after {
 	background-position: 0px 0px;
@@ -377,25 +390,34 @@ div#content div.inner_wrap div#icons a.reposession:hover:after {
 	background-position: 0px -225px;
 }
 
-
-div#content div.inner_wrap div.dynamic_content {
-    position: absolute;
-    top:0px;
-    left: 0px;
-
+div#content div.inner_wrap div#icons a.reposession.active:after {
+	background-position: 0px -225px;
 }
+
 
 div#content div.inner_wrap div#article_container{
 	display: block;
 	text-align: right;
 	min-height: 500px;
 	position: relative;
+	overflow: hidden;
 
 }
 
 div#content div.inner_wrap div#article_container img{
 	width: 329px;
 	padding-top: 16px;
+}
+
+div#content div.inner_wrap div.dynamic_content {
+    position: absolute;
+    top:0px;
+    right: -100%;
+    transition:all 0.6s;
+}
+
+div#content div.inner_wrap div.dynamic_content.visible {
+	right: 0px;
 }
 
 
