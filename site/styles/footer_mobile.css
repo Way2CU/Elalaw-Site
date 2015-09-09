@@ -1,0 +1,62 @@
+/**
+ * Footer Mobile Style Sheet
+ * 
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ footer {
+	display: block;
+	vertical-align: top;
+	background-color: #145b94;
+	border-top: solid 10px #6A6A6A;
+}
+
+footer div.inner_wrap.footer {
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1em;
+}
+
+footer div.inner_wrap div.footer_info {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 95%;
+}
+
+footer div.inner_wrap div.footer_info a {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: white;
+	text-decoration: none;
+}
+
+footer div.inner_wrap div.footer_info a.phone {
+	display: block;
+	vertical-align: top;
+	background-image: url(../images/phone-icon.svg);
+	margin-left: 20px;
+	padding-right: 35px;
+
+}
+
+.footer_info div.article p strong {
+    font-size: 1.2em;
+}
+
+footer div.inner_wrap.footer img#logo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+
+
