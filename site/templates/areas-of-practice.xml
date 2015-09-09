@@ -59,6 +59,7 @@
                                                             name="articles"
                                                             action="show"
                                                             text_id="mekarkein"
+                                                            template="parts/article.xml"
                                                     />
                                                     </div>
                                                 <div class="one_third">
@@ -79,6 +80,7 @@
                                                             name="articles"
                                                             action="show"
                                                             text_id="planning"
+                                                            template="parts/article.xml"
                                                     />
                                                     </div>
                                                 <div class="one_third">
@@ -99,6 +101,7 @@
                                                             name="articles"
                                                             action="show"
                                                             text_id="commercial"
+                                                            template="parts/article.xml"
                                                     />
                                                     </div>
                                                 <div class="one_third">
@@ -119,6 +122,7 @@
                                                             name="articles"
                                                             action="show"
                                                             text_id="reposession"
+                                                            template="parts/article.xml"
                                                     />
                                                     </div>
                                                 <div class="one_third">
