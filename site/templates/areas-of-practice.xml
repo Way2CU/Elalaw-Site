@@ -18,6 +18,7 @@
                                     <h1 class="areas">
                                         <cms:text constant="center_text_areas"/>
                                     </h1>
+                                    <cms:desktop>
                                     <div id="icons">
                                          <a 
                                             href="javascript:void(0)" 
@@ -47,6 +48,7 @@
                                              <cms:text constant="reposession"/>
                                         </a>
                                     </div>
+                                    </cms:desktop>
                                         <div id="article_container">
                                             <div class="dynamic_content">
                                                 <h3>

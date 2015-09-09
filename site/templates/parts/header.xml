@@ -37,10 +37,11 @@
 				/>
 		
 				<a
-				href="url_Make()"
-				class="phone"
-				cms:eval="href"
-				>
+					href="'tel:'.urlencode(Language::getText('phone'))"
+					cms:eval="href"
+					class="phone"
+					>
+
 				</a>
 		 </div>
 
