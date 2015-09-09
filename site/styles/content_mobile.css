@@ -20,11 +20,10 @@ div.inner_wrap {
 }
 
 header {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 a.logo {
@@ -81,16 +80,30 @@ header a.phone {
 	vertical-align: top;
 }
 
+.one_third p {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
 .two_third {
 	position: relative;
 	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
 	vertical-align: top;
 }
 
+.two_third p {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
 .force_inline {
-	display: inline-block;
+	display: block;
 }
 
 div.article.force_inline{
@@ -100,7 +113,6 @@ div.article.force_inline{
 }
 
 ul.force_inline{
-	width: 100px;
 	vertical-align: top;
 }
 
@@ -119,234 +131,33 @@ h1.thumbnail{
 
 /*home page*/
 
-div#content div.inner_wrap div.mobile_home_upper h1{
-	text-align: center;
-	color: #133469;
-	font-size: 2em;
-}
-
-div#content div.inner_wrap div.mobile_home_upper img{
-	width: 84px;
-}
-
-div#content div.inner_wrap div.mobile_home_upper span{
+div#content {
 	display: block;
-	margin-bottom: 40px;
-	font-size: 1.6em;
-}
-
-div.two_third div.article.force_inline{
-	background-image: url(../images/ella.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	padding-top: 298px;
-	width: 200px;
-}
-
-div#content div.inner_wrap div.home_about_mobile {
-	display: block;
-	background-image: url(../images/icon-articles-orange.svg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	padding-top: 58px;
+	margin-top: 87px;
 }
 
 .inner_wrap {
 	display: block;
-	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 }
 
-div#content div.inner_wrap div.mobile_home_upper {
-	background-repeat: no-repeat;
-	background-position: center top;
-	padding-top: 417px;
-}
-
-div#content div.inner_wrap div.mobile_home_upper.one{
-
-	background-image: url(../images/ella-mobile.jpg);
-}
-
-div#content div.inner_wrap div.mobile_home_upper.two{
-
-	background-image: url(../images/subjects-mobile.jpg);
-}
-
-div#content div.inner_wrap div.mobile_home_upper.three{
-
-	background-image: url(../images/writing-mobile.jpg);
-}
-div#content div.inner_wrap div.mobile_home_upper.four{
-
-	background-image: url(../images/articles-mobile.jpg);
-}
-div#content div.inner_wrap div.mobile_home_upper.five{
-
-	background-image: url(../images/contactus-mobile.jpg);
-}
-
-div#content div.inner_wrap div.mobile_home_upper.five img.blue{
-	width: 80px;
-	height: 80px;
-}
-
-
-div#content div.inner_wrap div.home_menu_container {
+div.two_third div.article.force_inline{
 	display: block;
-	text-align: center;
-	padding-top: 40px;
-
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu {
-	display: inline-block;
-	vertical-align: top;
-	width: 200px;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-repeat: no-repeat, no-repeat;
-	background-position: center 445px, center top;
-	background-size: 200px, 200px;
-	text-decoration: none;
-	color: #6A6A6A;
-	transition: 0.7s all;
-	border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
-	-moz-border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
-	-webkit-border-image: url(../images/line.svg) 0 0 2 0 stretch stretch;
-}
-
-div#content div.inner_wrap div.home_menu_container:hover{
-	color: #145b94;
-}
-
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:hover {
-	background-position: center 195px, center top;
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.first{
-	background-image: url(../images/about-blue.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(1) {
-	background-image: url(../images/shape.svg), url(../images/ella.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:hover.nth-of-type(1) {
-	background-image: url(../images/shape.svg), url(../images/ella.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(2) {
-	background-image: url(../images/shape.svg), url(../images/subjects.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(3) {
-	background-image: url(../images/shape.svg), url(../images/writing.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(4) {
-	background-image: url(../images/shape.svg), url(../images/articles.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu:nth-of-type(5) {
-	background-image: url(../images/shape.svg) , url(../images/contactus.jpg);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu img {
-	display: block;
-	width: 40px;
-	height:40px;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 330px;
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img {
-	display: block;
-	background-position: center bottom;
+	background-image: url(../images/ella.jpg);
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
-	padding-top: 380px;
-	transition: 0.3s all;
+	background-position: center top;
+	padding-top: 298px;
+	width: 95%;
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img:hover {
-	display: block;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: 40px 40px;
-	padding-top: 380px;
-	transition: 0.3s all;
-}
-
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.first {
-	background-image: url(../images/about-brown.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.first:hover {
-	background-image: url(../images/about-blue.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.second {
-	background-image: url(../images/areas-of-practice-brown.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.second:hover {
-	background-image: url(../images/areas-of-practice-blue.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.third {
-	background-image: url(../images/book-icon-brown.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.third:hover {
-	background-image: url(../images/book-icon-blue.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fourth {
-	background-image: url(../images/article-brown.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fourth:hover {
-	background-image: url(../images/article-blue.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fifth {
-	background-image: url(../images/contactus-brown.png);
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fifth:hover {
-	background-image: url(../images/icon-contact-us-blue.svg);
-}
-
-
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.title {
-	display: block;
-	font-size: 2.0em;
-	padding-top: 10px;
-
-}
-
-div#content div.inner_wrap div.home_menu_container a.home_menu span.sub_title {
-	display: block;
-	padding-bottom: 15px;
-	height: 50px;
-
-}
-
-a.active.menu {
-	background-color: #145b94;
-}
 
 /*about page */
 
-div#content div.inner_wrap div.one_third.about div.article h1{
+div#content div.inner_wrap div.two_third.about div.article h1{
 	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
@@ -355,7 +166,7 @@ div#content div.inner_wrap div.one_third.about div.article h1{
 	padding-top: 114px;
 }
 
-div#content div.inner_wrap div.two_third.about div.article h1{
+div#content div.inner_wrap div.one_third.about div.article h1{
 	color: #145b94;
 	background-image: url(../images/aboutus-icon-mobile.svg);
 	background-repeat: no-repeat;
@@ -379,7 +190,11 @@ div#content div.inner_wrap div.two_third.about div.article li{
 }
 
 div#content div.inner_wrap div.one_third.secound{
-	padding-bottom: 87px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-bottom: 0px;
 }
 div#content div.inner_wrap div.one_third.secound h1.thumbnail{
 	color: #145b94;
@@ -392,9 +207,10 @@ div#content div.inner_wrap div.one_third.secound h1.thumbnail{
 
 div#content div.inner_wrap div.about_article_last{
 	text-align: center;
-	display: inline-block;
-	padding-left: 10px;
-	padding-right: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
 }
 
 div#content div.inner_wrap div.about_article_last div.article h1{
@@ -404,6 +220,11 @@ div#content div.inner_wrap div.about_article_last div.article h1{
 	background-position: top center;
 	background-size: 100px 100px;
 	padding-top: 114px;
+}
+
+div#content div.inner_wrap div.about_article_last p {
+	display: block;
+	text-align: right;
 }
 
 
@@ -423,7 +244,7 @@ div#content div.inner_wrap div#icons {
 	text-align: center;
 }
 div#content div.inner_wrap div#icons a {
-	display: inline-block;
+	display: block;
 	width: 159px;
 	color: #133469;
 	text-decoration: none;
@@ -504,13 +325,48 @@ div#content div.inner_wrap div#icons a.reposession.active:after {
 }
 
 div#content div.inner_wrap div#article_container{
-	padding-top: 100px;
 	text-align: right;
 }
 
+div.dynamic_content {
+	display: block;
+	padding-top: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	position: relative;
+}
+
+div.dynamic_content:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -97.5px;
+	background-image: url(../images/sprite-icons.svg);
+	background-position: -600px 0px;
+	background-size: 790px 440px;
+	background-repeat: no-repeat; 
+	width: 195px;
+	height: 220px;
+}
+
+div.dynamic_content:nth-of-type(2):before {
+	background-position: -400px 0px;	
+}
+
+div.dynamic_content:nth-of-type(3):before {
+	background-position: -200px 0px;	
+}
+
+div.dynamic_content:nth-of-type(4):before {
+	background-position: 0px 0px;	
+}
+
 div#content div.inner_wrap div#article_container img{
-	width: 320px; */
+	width: 320px; 
 	margin: 0;
+	padding-bottom: 20px;
 	position: relative;
 	top: 4px;
 }
@@ -547,7 +403,7 @@ div#content div.inner_wrap div.mobile_secound_articles h1{
 	color: white;
 }
 
-div#content div.inner_wrap h1.atricles.upper {
+div#content div.inner_wrap h1.articles.upper {
 background-image: url(../images/articles-icon-mobile.svg);
 background-repeat: no-repeat;
 background-position: top center;
@@ -555,9 +411,19 @@ background-size: 100px 100px;
 padding-top: 114px;
 }
 
+div#content div.inner_wrap div.articles_upper {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
 
 div#content div.inner_wrap div.articles_upper h6{
 	display: block;
+	text-align: center;
+	margin: 0px;
 	color: #145b94;
 	background-image: url(../images/articles-icon-mobile.svg);
 	background-repeat: no-repeat;
