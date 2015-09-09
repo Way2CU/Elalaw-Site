@@ -19,21 +19,29 @@
                                         <cms:text constant="center_text_areas"/>
                                     </h1>
                                     <div id="icons">
-                                         <a href="javascript:void(0)"
+                                         <a 
+                                            href="javascript:void(0)" 
+                                            class="mekarkein"
                                             >
                                                 <cms:text constant="mekarkein"/>
                                         </a>
 
-                                        <a href="javascript:void(0)"
+                                        <a 
+                                            href="javascript:void(0)" 
+                                            class="planning"
                                         >
                                             <cms:text constant="planning"/>
                                         </a>
-                                        <a href="javascript:void(0)"
+                                        <a 
+                                            href="javascript:void(0)" 
+                                            class="commercial"
 
                                         >
                                             <cms:text constant="commercial"/>
                                         </a>
-                                        <a href="javascript:void(0)"
+                                        <a 
+                                            href="javascript:void(0)" 
+                                            class="reposession"
 
                                         >
                                              <cms:text constant="reposession"/>
