@@ -18,6 +18,13 @@
 				<cms:text constant="about"/>
 			</a>
 			<a
+			href="url_Make('', 'faq')"
+			class="($section == 'faq' ? 'active menu ' : '').'faq'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="menu_faq"/>
+			</a>			
+			<a
 			href="url_Make('', 'areas-of-practice')"
 			class="($section == 'areas-of-practice' ? 'active menu ' : '').'areas-of-practice'"
 			cms:eval="href,class"
@@ -56,6 +63,14 @@
 			>
 				<cms:text constant="about"/>
 			</a>
+			<a
+			href="url_Make('', 'faq')"
+			class="($section == 'faq' ? 'active menu ' : '').'faq'"
+			cms:eval="href,class"
+			>
+				<cms:text constant="menu_faq"/>
+			</a>
+			
 			<a
 			href="url_Make('', 'areas-of-practice')"
 			class="($section == 'areas-of-practice' ? 'active ' : '').'areas-of-practice'"
