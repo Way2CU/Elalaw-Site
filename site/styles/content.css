@@ -399,7 +399,6 @@ div#content div.inner_wrap div#icons a.reposession.active:after {
 div#content div.inner_wrap div#article_container{
 	display: block;
 	text-align: right;
-	min-height: 600px;
 	position: relative;
 	overflow: hidden;
 
