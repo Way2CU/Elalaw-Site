@@ -12,6 +12,16 @@
 
 		<body class="rtl">
 				<cms:template file="parts/header.xml"/>
+				<section class="faq">
+					<h2><cms:text constant="faq"/></h2>
+					<div id="questions">
+						<cms:module
+							name="faq"
+							action="show_list"
+							template="parts/questions.xml"
+							/>
+					</div>
+				</section>
 				
 				<cms:template file="parts/footer.xml"/>
 		</body>
