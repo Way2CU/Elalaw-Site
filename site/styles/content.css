@@ -651,3 +651,90 @@ div#content div.inner_wrap div.articles_secound article ul li {
 div#content div.inner_wrap div.articles_secound article ul li:before {
 	content: "• ";
 }
+
+/*FAQ page*/
+
+section.faq {
+	display: block;
+	text-align: center;
+	padding:20px calc((100vw - 1200px) / 2);
+}
+
+section.faq h2 {
+	text-align: center;
+	color: #145b94;
+	font-size: 2em;	
+}
+
+div#questions {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width:1000px;
+}
+
+div#questions label {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	border-bottom: 1px solid #e8e8e8;
+	cursor: pointer;
+	position: relative;
+
+}
+
+div#questions label:before {
+    width: 1.5em;
+    height: 1.5em;
+    content: '';
+    margin-left: 5px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background-image: url(../images/faq-sprite.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5em 3em;
+    background-position: 0px 0px;
+    transition: all 0.5s;
+}
+
+div#questions label input[type="checkbox"] {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	display: none;
+	position: relative;
+	cursor: pointer;
+
+}
+
+
+div#questions label input[type="checkbox"]:checked ~ div {
+	display: block;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div#questions label input[type="checkbox"]:checked:before {
+	background-position: 0px -1.5em;
+}
+
+
+div#questions label p {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color: black;
+}
+
+div#questions label div {
+	display: none;
+	color: #145b94;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
