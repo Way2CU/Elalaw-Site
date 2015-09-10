@@ -65,7 +65,7 @@
 			</a>
 			<a
 			href="url_Make('', 'faq')"
-			class="($section == 'faq' ? 'active menu ' : '').'faq'"
+			class="($section == 'faq' ? 'active  ' : '').'faq'"
 			cms:eval="href,class"
 			>
 				<cms:text constant="menu_faq"/>

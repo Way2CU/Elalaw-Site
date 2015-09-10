@@ -64,7 +64,7 @@
 									</div>
 								<div class="one_third">
 									<img
-											src="_BASEURL.'/site/images/photo-real-estate.jpg'"
+											src="_BASEURL.'/site/images/real-estate.jpg'"
 											alt="technician"
 											id=""
 											cms:eval="src"
@@ -85,7 +85,7 @@
 									</div>
 								<div class="one_third">
 									<img
-											src="_BASEURL.'/site/images/photo-planning-and-zoning.jpg'"
+											src="_BASEURL.'/site/images/planning-building.jpg'"
 											alt="technician"
 											id=""
 											cms:eval="src"
@@ -106,7 +106,7 @@
 									</div>
 								<div class="one_third">
 									<img
-											src="_BASEURL.'/site/images/photo-commercial-and-companies.jpg'"
+											src="_BASEURL.'/site/images/commercial-companies.jpg'"
 											alt="technician"
 											id=""
 											cms:eval="src"
