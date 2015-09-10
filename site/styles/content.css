@@ -73,6 +73,7 @@ div.two_third div.article.force_inline{
 body {
     background-image: url(../images/site-background.jpg);
     background-position: center top;
+    background-repeat: no-repeat;
 }
 
 .inner_wrap {
@@ -431,7 +432,7 @@ div#content div.inner_wrap div.dynamic_content ul li {
 
 div#content div.inner_wrap div.dynamic_content ul li:before {
 	 content: "• ";
-	
+
 }
 
 div#content div.inner_wrap div.dynamic_content.visible {
@@ -603,15 +604,17 @@ div#content div.inner_wrap div.articles_secound{
 	margin-top: 80px;
 	background-image: url(../images/icon-articles.svg);
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: right top;
 	padding-right: 212px;
 }
 
-div#content div.inner_wrap div.articles_secound div.article{
-	padding-bottom: 12px;
+div#content div.inner_wrap div.articles_secound article {
+	display: block;
+	padding-bottom: 20px;
+	width: 960px;
 }
 
-div#content div.inner_wrap div.articles_secound  h3{
+div#content div.inner_wrap div.articles_secound article h3{
 	display: block;
 	font-size: 1.7em;
 	text-align: right;
@@ -621,7 +624,30 @@ div#content div.inner_wrap div.articles_secound  h3{
 	color: #E6871C;
 }
 
-div#content div.inner_wrap div.articles_secound p{
+div#content div.inner_wrap div.articles_secound article p {
 	margin: 0;
 	margin-bottom: 20px;
+}
+
+div#content div.inner_wrap div.articles_secound article strong {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#content div.inner_wrap div.articles_secound article ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#content div.inner_wrap div.articles_secound article ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	position: relative;
+}
+
+div#content div.inner_wrap div.articles_secound article ul li:before {
+	content: "• ";
 }
