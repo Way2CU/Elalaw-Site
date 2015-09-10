@@ -70,11 +70,11 @@ footer a.location {
 }
 
 footer div.inner_wrap.footer nav {
-	display: inline-block;
+    display: inline-block;
     vertical-align: top;
     margin-top: 26px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 footer div.inner_wrap.footer nav a {
