@@ -28,6 +28,7 @@
                                                  name="articles"
                                                  action="show"
                                                  text_id="contact_article"
+                                                 template="parts/article_noheader.xml"
                                              />
                                              <img
                                                  src="_BASEURL.'/site/images/ella-photo.jpg'"
