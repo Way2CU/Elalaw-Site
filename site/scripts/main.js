@@ -58,7 +58,8 @@ Site.on_load = function() {
 	Site.Profession
 		.attachControls($('div#icons a'))
 		.setPauseOnHover(false)		
-		.setWrapAround(true);	
+		.setWrapAround(true);
+
 };
 
 // connect document `load` event with handler function
