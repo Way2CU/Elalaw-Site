@@ -78,6 +78,7 @@ header a.phone {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
+	color:#145b94;
 }
 
 .one_third p {
@@ -85,6 +86,7 @@ header a.phone {
 	text-align: right;
 	margin-left: auto;
 	margin-right: auto;
+	color:#145b94;
 	width: 95%;
 }
 
@@ -92,6 +94,7 @@ header a.phone {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
+	color: #145b94;
 }
 
 .two_third p {
@@ -99,6 +102,7 @@ header a.phone {
 	text-align: right;
 	margin-left: auto;
 	margin-right: auto;
+	color:#145b94;
 	width: 95%;
 }
 
@@ -114,6 +118,7 @@ div.article.force_inline{
 
 ul.force_inline{
 	vertical-align: top;
+	color:#145b94;
 }
 
 li{
@@ -210,6 +215,7 @@ div#content div.inner_wrap div.about_article_last{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	color:#145b94;
 	width: 95%;
 }
 
@@ -225,6 +231,7 @@ div#content div.inner_wrap div.about_article_last div.article h1{
 div#content div.inner_wrap div.about_article_last p {
 	display: block;
 	text-align: right;
+	color:#145b94;
 }
 
 
@@ -437,19 +444,20 @@ div#content div.inner_wrap div.articles_upper div.article p{
 	text-align: center;
 }
 
-div#content div.inner_wrap div.articles_secound{
-	margin-top: 80px;
-	background-image: url(../images/icon-articles.svg);
-	background-repeat: no-repeat;
-	background-position: right center;
-	padding-right: 212px;
+div#content div.inner_wrap div.mobile_secound_articles{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 95%;
 }
 
-div#content div.inner_wrap div.articles_secound div.article{
-	padding-bottom: 12px;
+div#content div.inner_wrap div.mobile_secound_articles article {
+	display: block;
+	padding-bottom: 20px;
 }
 
-div#content div.inner_wrap div.articles_secound  h3{
+div#content div.inner_wrap div.mobile_secound_articles article h3{
 	display: block;
 	font-size: 1.7em;
 	text-align: right;
@@ -459,9 +467,22 @@ div#content div.inner_wrap div.articles_secound  h3{
 	color: #E6871C;
 }
 
-div#content div.inner_wrap div.articles_secound p{
+div#content div.inner_wrap div.mobile_secound_articles article p {
 	margin: 0;
 	margin-bottom: 20px;
+}
+
+div#content div.inner_wrap div.mobile_secound_articles article strong {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#content div.inner_wrap div.mobile_secound_articles article ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 20px;
 }
 
 
