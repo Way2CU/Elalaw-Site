@@ -599,27 +599,9 @@ div#questions {
 
 div#questions label {
 	display: block;
-	padding-bottom: 40px;
 	border-bottom: 1px solid #e8e8e8;
 	cursor: pointer;
-	position: relative;
 
-}
-
-div#questions label:before {
-    width: 1.5em;
-    height: 1.5em;
-    content: '';
-    margin-left: 5px;
-    position: absolute;
-    bottom: 10px;
-    right: 50%;
-    margin-right: -0.75em;
-    background-image: url(../images/faq-sprite.svg);
-    background-repeat: no-repeat;
-    background-size: 1.5em 3em;
-    background-position: 0px 0px;
-    transition: all 0.5s;
 }
 
 div#questions label input[type="checkbox"] {
@@ -640,14 +622,36 @@ div#questions label input[type="checkbox"]:checked ~ div {
 
 div#questions label p {
 	display: block;
+	padding-bottom: 40px;
 	font-weight: bold;
 	color: black;
+	position: relative;
+}
+
+div#questions label p:before {
+    width: 1.5em;
+    height: 1.5em;
+    content: '';
+    margin-left: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    margin-right: -0.75em;
+    background-image: url(../images/faq-sprite.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5em 3em;
+    background-position: 0px 0px;
+    transition: all 0.5s;
+}
+
+div#questions label input[type="checkbox"]:checked ~ p:before {
+	background-position: 0em -1.5em;
 }
 
 div#questions label div {
 	display: none;
 	color: #145b94;
-	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
