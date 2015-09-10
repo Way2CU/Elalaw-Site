@@ -60,6 +60,16 @@ Site.on_load = function() {
 		.setPauseOnHover(false)		
 		.setWrapAround(true);
 
+	// Fucntion for wrapping pagecontrol content
+	var max_height = 0;
+	var container = $('div#article_container');
+	$('div.dynamic_content').each(function(){
+		if($(this).height() > max_height) {
+			max_height = $(this).height();
+			container.css('height',max_height + 10);
+		}
+	});
+
 };
 
 // connect document `load` event with handler function
