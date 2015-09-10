@@ -203,7 +203,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fir
 	background-image: url(../images/about-brown.png);
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.first:hover {
+div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.first {
 	background-image: url(../images/about-blue.png);
 }
 
@@ -211,7 +211,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.sec
 	background-image: url(../images/areas-of-practice-brown.png);
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.second:hover {
+div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.second {
 	background-image: url(../images/areas-of-practice-blue.png);
 }
 
@@ -219,7 +219,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.thi
 	background-image: url(../images/book-icon-brown.png);
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.third:hover {
+div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.third {
 	background-image: url(../images/book-icon-blue.png);
 }
 
@@ -227,7 +227,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fou
 	background-image: url(../images/article-brown.png);
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fourth:hover {
+div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.fourth {
 	background-image: url(../images/article-blue.png);
 }
 
@@ -235,7 +235,7 @@ div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fif
 	background-image: url(../images/contactus-brown.png);
 }
 
-div#content div.inner_wrap div.home_menu_container a.home_menu span.menu_img.fifth:hover {
+div#content div.inner_wrap div.home_menu_container a.home_menu:hover span.menu_img.fifth {
 	background-image: url(../images/icon-contact-us-blue.svg);
 }
 
