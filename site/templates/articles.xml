@@ -27,13 +27,11 @@
                                             text_id="articles_top"
                                         />
                                         <div class="articles_secound">
-                                            <h3>
-                                                <cms:text constant="h3_articles"/>
-                                            </h3>
                                             <cms:module
                                                 name="articles"
-                                                action="show"
-                                                text_id="secound_articles"
+                                                action="show_group"
+                                                text_id="articles_page"
+                                                template="parts/show_group_articles.xml"
                                             />
                                         </div>
                                     </cms:desktop>
