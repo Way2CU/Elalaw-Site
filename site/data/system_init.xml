@@ -8,6 +8,8 @@
 	<module name="language_menu" order="4" preload="yes"/>
 	<module name="contact_form" order="5" preload="no"/>
 	<module name="articles" order="6" preload="no"/>
+	<module name="faq" order="7" preload="no"/>
+	<module name="mandrill" order="8" preload="no"/>
 	<module name="captcha" order="0" preload="no"/>
 
 	<user
