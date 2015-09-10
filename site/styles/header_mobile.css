@@ -82,3 +82,7 @@ nav.mobile_menu.visible {
 	width: 100%;
 }
 
+nav.mobile_menu.visible a.active {
+	display: block;
+}
+

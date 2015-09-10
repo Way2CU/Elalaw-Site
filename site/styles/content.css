@@ -707,9 +707,7 @@ div#questions label input[type="checkbox"] {
 	display: none;
 	position: relative;
 	cursor: pointer;
-
 }
-
 
 div#questions label input[type="checkbox"]:checked ~ div {
 	display: block;
@@ -717,11 +715,6 @@ div#questions label input[type="checkbox"]:checked ~ div {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
-div#questions label input[type="checkbox"]:checked:before {
-	background-position: 0px -1.5em;
-}
-
 
 div#questions label p {
 	display: inline-block;
