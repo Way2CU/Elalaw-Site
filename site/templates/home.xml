@@ -88,7 +88,7 @@
                                                 name="articles"
                                                 action="show"
                                                 text_id="about_home"
-                                                template="parts/article_force_inline.xml"
+                                                template="parts/article_force_inline_noh1.xml"
                                             />
                                         </div>
                                         <div class="one_third">

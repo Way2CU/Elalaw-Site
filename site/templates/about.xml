@@ -30,6 +30,7 @@
                                    name="articles"
                                    action="show"
                                    text_id="left_upper"
+                                   template="parts/article.xml"
                                />
                                <cms:module
                                    name="articles"
