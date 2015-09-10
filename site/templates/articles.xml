@@ -47,8 +47,9 @@
                                             <div class="mobile_secound_articles">
                                                 <cms:module
                                                     name="articles"
-                                                    action="show"
-                                                    text_id="mobile_secound_articles"
+                                                    action="show_group"
+                                                    text_id="articles_page"
+                                                    template="parts/show_group_articles.xml"
                                                 />
                                         </div>
                                     </cms:mobile>
