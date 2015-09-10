@@ -398,7 +398,7 @@ div#content div.inner_wrap div#icons a.reposession.active:after {
 div#content div.inner_wrap div#article_container{
 	display: block;
 	text-align: right;
-	min-height: 500px;
+	min-height: 600px;
 	position: relative;
 	overflow: hidden;
 
@@ -414,6 +414,24 @@ div#content div.inner_wrap div.dynamic_content {
     top:0px;
     right: -100%;
     transition:all 0.6s;
+}
+
+div#content div.inner_wrap div.dynamic_content ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#content div.inner_wrap div.dynamic_content ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	position: relative;
+}
+
+div#content div.inner_wrap div.dynamic_content ul li:before {
+	 content: "• ";
+	
 }
 
 div#content div.inner_wrap div.dynamic_content.visible {
