@@ -1,11 +1,11 @@
 ---
 site:
-  domain: sample.com
+  domain: elalaw.co.il
   make_alias: false
   root: httpdocs
-  username: "sample"
+  username: "elalaw"
   caracal_branch: develop
-  # ip_address: 0.0.0.0
+  ip_address: 216.250.115.199
   # owner: Some Person
   # plan: Unlimited
 
