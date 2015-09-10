@@ -720,6 +720,7 @@ div#questions label p:before {
     background-repeat: no-repeat;
     background-size: 1.5em 3em;
     background-position: 0px 0px;
+    transition:all 0.3s;
 }
 
 div#questions label input[type="checkbox"]:checked ~ p:before {
