@@ -54,6 +54,7 @@ Site.on_load = function() {
 		Site.mobile_menu = new Caracal.MobileMenu();
 
 
+	if(!Site.is_mobile()) {	
 	Site.Profession = new PageControl('div#article_container','div.dynamic_content');
 	Site.Profession
 		.attachControls($('div#icons a'))
@@ -69,6 +70,7 @@ Site.on_load = function() {
 			container.css('height',max_height + 10);
 		}
 	});
+	}
 
 };
 
