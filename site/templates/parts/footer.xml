@@ -15,7 +15,7 @@
                         <cms:template file="parts/menu.xml"/>
                   </cms:desktop>
                         <img
-                        src="_BASEURL.'/site/images/logo-new-white.svg'"
+                        src="_BASEURL.'/site/images/logo-new-color.svg'"
                         alt=""
                         id="logo"
                         eval="src"
