@@ -45,7 +45,7 @@
 							class="reposession"
 
 						>
-							 <cms:text constant="reposession"/>
+							 <cms:text constant="livui"/>
 						</a>
 					</div>
 					</cms:desktop>
